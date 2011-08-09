@@ -1,0 +1,10 @@
+document_root appwebroot
+ 
+shared_writable_dirs
+  - apptmp
+  - tmpcache
+ 
+php_extensions
+  - mcrypt
+  - mysqli
+  - mbstring
