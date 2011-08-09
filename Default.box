@@ -1,9 +1,9 @@
 document_root appwebroot
  
 shared_writable_dirs
-  - apptmp
-  - tmpcache
- 
+  - app/tmp
+  - tmp/cache
+  - /persistent/
 php_extensions
   - mcrypt
   - mysqli
